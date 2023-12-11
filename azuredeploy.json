@@ -32,31 +32,40 @@
             
         },
         "netFrameworkVersion": {
-            "type": "String"
+            "type": "String",
+            "defaultValue": "net6.0"
         },
         "sku": {
-            "type": "String"
+            "type": "String",
+            "defaultValue": "net6.0"
         },
         "skuCode": {
-            "type": "String"
+            "type": "String",
+            "defaultValue": "net6.0"
         },
         "workerSize": {
-            "type": "String"
+            "type": "String",
+            "defaultValue": "net6.0"
         },
         "workerSizeId": {
-            "type": "String"
+            "type": "String",
+            "defaultValue": "net6.0"
         },
         "numberOfWorkers": {
-            "type": "String"
+            "type": "String",
+            "defaultValue": "net6.0"
         },
         "hostingPlanName": {
-            "type": "String"
+            "type": "String",
+            "defaultValue": "net6.0"
         },
         "serverFarmResourceGroup": {
-            "type": "String"
+            "type": "String",
+            "defaultValue": "net6.0"
         },
         "alwaysOn": {
-            "type": "Bool"
+            "type": "Bool",
+            "defaultValue": "net6.0"
         }
     },
     "variables": {},
