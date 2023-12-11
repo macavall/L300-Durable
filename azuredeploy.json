@@ -62,9 +62,8 @@
             "defaultValue": "false"
         }
     },
-    "variables": {
-        "applicationInsightsName": "[format('AppInsights{0}', uniqueString(resourceGroup().id))]"
-        }
+        "variables": {
+            "applicationInsightsName": "[format('AppInsights{0}', uniqueString(resourceGroup().id))]"
     },
     "resources": [
         {
