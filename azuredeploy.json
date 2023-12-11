@@ -59,7 +59,7 @@
         },
         "alwaysOn": {
             "type": "Bool",
-            "defaultValue": "net6.0"
+            "defaultValue": "false"
         }
     },
     "variables": {},
