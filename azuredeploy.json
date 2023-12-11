@@ -2,7 +2,7 @@
     "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
     "contentVersion": "1.0.0.0",
     "parameters": {
-        "appName": {
+        "name": {
             "type": "String",
             "defaultValue": "[format('func-{0}', uniqueString(resourceGroup().id))]",
             "metadata": {
@@ -14,13 +14,22 @@
             "defaultValue": "[resourceGroup().location]"
         },
         "use32BitWorkerProcess": {
-            "type": "Bool"
+            "type": "Bool",
+            "defaultValue": "false"
         },
         "ftpsState": {
-            "type": "String"
+            "type": "String",
+            "defaultValue": "FtpsOnly"
         },
         "storageAccountName": {
-            "type": "String"
+          "type": "string",
+          "defaultValue": "[format('st{0}', uniqueString(resourceGroup().id))]",
+          "metadata": {
+            "description": "The name of the backend Azure storage account used by the Azure Function app."
+      },
+        "storageAccountName": {
+            "type": "String",
+            
         },
         "netFrameworkVersion": {
             "type": "String"
