@@ -63,7 +63,7 @@
         }
     },
     "variables": {
-        "applicationInsightsName": "[format('AppInsights{0}', uniqueString(resourceGroup().id))]",
+        "applicationInsightsName": "[format('AppInsights{0}', uniqueString(resourceGroup().id))]"
     },
     "resources": [
         {
