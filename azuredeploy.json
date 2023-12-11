@@ -46,11 +46,9 @@
     },
     "functionAppPlanSku": {
       "type": "string",
-      "defaultValue": "EP1",
+      "defaultValue": "Y",
       "allowedValues": [
-        "EP1",
-        "EP2",
-        "EP3"
+        "Y"
       ],
       "metadata": {
         "description": "Specifies the Azure Function hosting plan SKU."
@@ -68,55 +66,6 @@
       "defaultValue": "[format('st{0}', uniqueString(resourceGroup().id))]",
       "metadata": {
         "description": "The name of the backend Azure storage account used by the Azure Function app."
-      }
-    },
-    "vnetName": {
-      "type": "string",
-      "defaultValue": "[format('vnet-{0}', uniqueString(resourceGroup().id))]",
-      "metadata": {
-        "description": "The name of the virtual network for virtual network integration."
-      }
-    },
-    "functionSubnetName": {
-      "type": "string",
-      "defaultValue": "snet-func",
-      "metadata": {
-        "description": "The name of the virtual network subnet to be associated with the Azure Function app."
-      }
-    },
-    "privateEndpointSubnetName": {
-      "type": "string",
-      "defaultValue": "snet-pe",
-      "metadata": {
-        "description": "The name of the virtual network subnet used for allocating IP addresses for private endpoints."
-      }
-    },
-    "vnetAddressPrefix": {
-      "type": "string",
-      "defaultValue": "10.100.0.0/16",
-      "metadata": {
-        "description": "The IP adddress space used for the virtual network."
-      }
-    },
-    "functionSubnetAddressPrefix": {
-      "type": "string",
-      "defaultValue": "10.100.0.0/24",
-      "metadata": {
-        "description": "The IP address space used for the Azure Function integration subnet."
-      }
-    },
-    "privateEndpointSubnetAddressPrefix": {
-      "type": "string",
-      "defaultValue": "10.100.1.0/24",
-      "metadata": {
-        "description": "The IP address space used for the private endpoints."
-      }
-    },
-    "linuxFxVersion": {
-      "type": "string",
-      "defaultValue": "",
-      "metadata": {
-        "description": "Only required for Linux app to represent runtime stack in the format of 'runtime|runtimeVersion'. For example: 'python|3.9'"
       }
     }
   },
