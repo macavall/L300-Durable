@@ -1,0 +1,26 @@
+{
+  "version": "2.0",
+  "extensions": {
+    "durableTask": {
+      "hubName": "LocalTaskHub3",
+      "storageProvider": {
+        "partitionCount": 2,
+        "controlQueueBatchSize": 1,
+        "maxQueuePollingInterval": "00:00:01",
+        "controlQueueBufferThreshold": 1,
+        "workItemQueueVisibilityTimeout": "00:00:05"
+      },
+      "maxConcurrentActivityFunctions": 1,
+      "maxConcurrentOrchestratorFunctions": 1
+    },
+  },
+    "logging": {
+        "applicationInsights": {
+            "samplingSettings": {
+                "isEnabled": true,
+                "excludedTypes": "Request"
+            },
+            "enableLiveMetricsFilters": true
+        }
+    }
+}
