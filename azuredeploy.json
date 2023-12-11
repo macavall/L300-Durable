@@ -72,7 +72,7 @@
             "name": "[parameters('name')]",
             "location": "[parameters('location')]",
             "dependsOn": [
-                "[format('microsoft.insights/components/{0}', variables('applicationInsightsName')]",
+                "[format('microsoft.insights/components/{0}', variables('applicationInsightsName'))]",
                 "[concat('Microsoft.Web/serverfarms/', parameters('hostingPlanName'))]",
                 "[concat('Microsoft.Storage/storageAccounts/', parameters('storageAccountName'))]"
             ],
@@ -110,7 +110,7 @@
                         },
                         {
                             "name": "WEBSITE_CONTENTSHARE",
-                            "value": "durabletest563confab2ca"
+                            "value": "[format('durabletest563confa{0}', uniqueString(resourceGroup().id))]"
                         }
                     ],
                     "cors": {
