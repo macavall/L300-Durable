@@ -2,14 +2,19 @@
     "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
     "contentVersion": "1.0.0.0",
     "parameters": {
-        "subscriptionId": {
-            "type": "String"
+        "appName": {
+            "type": "String",
+            "defaultValue": "[format('func-{0}', uniqueString(resourceGroup().id))]",
+            "metadata": {
+              "description": "The name of the Azure Function app."
+          }
         },
         "name": {
             "type": "String"
         },
         "location": {
-            "type": "String"
+            "type": "String".
+            "defaultValue": "[resourceGroup().location]"
         },
         "use32BitWorkerProcess": {
             "type": "Bool"
