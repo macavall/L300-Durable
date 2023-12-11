@@ -98,7 +98,7 @@
                         },
                         {
                             "name": "APPLICATIONINSIGHTS_CONNECTION_STRING",
-                            "value": "[reference('microsoft.insights/components/durabletest563conai', '2015-05-01').ConnectionString]"
+                            "value": "[reference(format('microsoft.insights/components/{0}, variables('applicationInsightsName')'), '2015-05-01').ConnectionString]"
                         },
                         {
                             "name": "AzureWebJobsStorage",
