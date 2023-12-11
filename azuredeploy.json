@@ -25,12 +25,9 @@
     },
     "functionWorkerRuntime": {
       "type": "string",
-      "defaultValue": "node",
+      "defaultValue": "dotnet-isolated",
       "allowedValues": [
-        "dotnet",
-        "node",
-        "python",
-        "java"
+        "dotnet-isolated"
       ],
       "metadata": {
         "description": "The language worker runtime to load in the function app."
