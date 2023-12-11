@@ -62,7 +62,9 @@
             "defaultValue": "false"
         }
     },
-    "variables": {},
+    "variables": {
+        "applicationInsightsName": "[format('AppInsights{0}', uniqueString(resourceGroup().id))]",
+    },
     "resources": [
         {
             "type": "Microsoft.Web/sites",
@@ -75,7 +77,7 @@
                 "[concat('Microsoft.Storage/storageAccounts/', parameters('storageAccountName'))]"
             ],
             "tags": {
-                "hidden-link: /app-insights-resource-id": "/subscriptions/153bf828-3e1e-48f9-8e6d-7f69c8e188aa/resourceGroups/00durabletest563rg/providers/Microsoft.Insights/components/durabletest563conai"
+                "hidden-link: /app-insights-resource-id": "[format('/subscriptions/{0}/resourceGroups/{1}/providers/{2}Microsoft.Insights/components/{3}', subscription().subscriptionId, resourceGroup().id, variables('applicationInsightsName')]"
             },
             "kind": "functionapp",
             "properties": {
