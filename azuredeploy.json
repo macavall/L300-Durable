@@ -25,41 +25,37 @@
           "type": "string",
           "defaultValue": "[format('st{0}', uniqueString(resourceGroup().id))]"
         },
-        "storageAccountName": {
-            "type": "String",
-            
-        },
         "netFrameworkVersion": {
             "type": "String",
             "defaultValue": "net6.0"
         },
         "sku": {
             "type": "String",
-            "defaultValue": "net6.0"
+            "defaultValue": "Dynamic"
         },
         "skuCode": {
             "type": "String",
-            "defaultValue": "net6.0"
+            "defaultValue": "Y1"
         },
         "workerSize": {
             "type": "String",
-            "defaultValue": "net6.0"
+            "defaultValue": "0"
         },
         "workerSizeId": {
             "type": "String",
-            "defaultValue": "net6.0"
+            "defaultValue": "0"
         },
         "numberOfWorkers": {
             "type": "String",
-            "defaultValue": "net6.0"
+            "defaultValue": "1"
         },
         "hostingPlanName": {
             "type": "String",
-            "defaultValue": "net6.0"
+            "defaultValue": "[format('plan-{0}', uniqueString(resourceGroup().id))]"
         },
         "serverFarmResourceGroup": {
             "type": "String",
-            "defaultValue": "net6.0"
+            "defaultValue": "[resourceGroup().id]"
         },
         "alwaysOn": {
             "type": "Bool",
