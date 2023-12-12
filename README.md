@@ -21,17 +21,17 @@ Deploy the Scenario here: [![Deploy To Azure](https://raw.githubusercontent.com/
 
 ## Examples of the PartitionId(s) shown in the History Table using the same ExecutionId
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;First PartitionId
+First PartitionId
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![image](https://github.com/macavall/L300-Durable/assets/43223084/1c9a471a-5424-4bd6-b53d-2e5c577791ae)
+![image](https://github.com/macavall/L300-Durable/assets/43223084/1c9a471a-5424-4bd6-b53d-2e5c577791ae)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Second PartitionId <br/>
+Second PartitionId <br/>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![image](https://github.com/macavall/L300-Durable/assets/43223084/86e6e0ae-50cc-47fc-9c6b-13edc728b02d)
+![image](https://github.com/macavall/L300-Durable/assets/43223084/86e6e0ae-50cc-47fc-9c6b-13edc728b02d)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Same ExecutionId
+Same ExecutionId
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![image](https://github.com/macavall/L300-Durable/assets/43223084/ea0f3532-64b0-4ae2-8238-57895b35655a)
+![image](https://github.com/macavall/L300-Durable/assets/43223084/ea0f3532-64b0-4ae2-8238-57895b35655a)
 
 
 
