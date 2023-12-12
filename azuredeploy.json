@@ -63,7 +63,6 @@
         }
     },
     "variables": {
-        "applicationInsightsName": "[format('appi-{0}', uniqueString(resourceGroup().id))]"
     },
     "resources": [
         {
@@ -72,13 +71,9 @@
             "name": "[parameters('name')]",
             "location": "[parameters('location')]",
             "dependsOn": [
-                "[format('microsoft.insights/components/{0}', variables('applicationInsightsName'))]",
                 "[concat('Microsoft.Web/serverfarms/', parameters('hostingPlanName'))]",
                 "[concat('Microsoft.Storage/storageAccounts/', parameters('storageAccountName'))]"
             ],
-            "tags": {
-                "hidden-link: /app-insights-resource-id": "[format('/subscriptions/{0}/resourceGroups/{1}/providers/{2}Microsoft.Insights/components/{3}', subscription().subscriptionId, resourceGroup().id, variables('applicationInsightsName')]"
-            },
             "kind": "functionapp",
             "properties": {
                 "name": "[parameters('name')]",
