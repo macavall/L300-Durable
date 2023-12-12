@@ -13,3 +13,5 @@ Deploy the Azure Resource
 
 ![image](https://github.com/macavall/L300-Durable/assets/43223084/8b563c43-142e-43da-b2f8-2737c92501ff)
 
+![image](https://github.com/macavall/L300-Durable/assets/43223084/2401727c-e01f-4dde-98a5-924ecec17933)
+
