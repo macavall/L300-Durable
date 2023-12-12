@@ -25,7 +25,7 @@ First PartitionId
 
 ![image](https://github.com/macavall/L300-Durable/assets/43223084/1c9a471a-5424-4bd6-b53d-2e5c577791ae)
 
-Second PartitionId <br/>
+Second PartitionId
 
 ![image](https://github.com/macavall/L300-Durable/assets/43223084/86e6e0ae-50cc-47fc-9c6b-13edc728b02d)
 
