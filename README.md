@@ -45,7 +45,7 @@ If there are issues with accessing the Storage Account Browser due to permission
 
 ![image](https://github.com/macavall/L300-Durable/assets/43223084/8b563c43-142e-43da-b2f8-2737c92501ff)
 
-![image](https://github.com/macavall/L300-Durable/assets/43223084/3e0d4c6c-884c-4557-9144-390b112c83c3)
+<!--![image](https://github.com/macavall/L300-Durable/assets/43223084/3e0d4c6c-884c-4557-9144-390b112c83c3)-->
 
 ## Storage Configurations
 - After adding the above permissions, it may be necessary to **logout** and then **sign-in** again into the Azure Portal for the permissions to take affect
