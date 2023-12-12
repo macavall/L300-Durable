@@ -102,7 +102,11 @@
                         {
                             "name": "WEBSITE_CONTENTSHARE",
                             "value": "[format('durabletest563confa{0}', uniqueString(resourceGroup().id))]"
-                        }
+                        },
+                        {
+                            "name": "WEBSITE_RUN_FROM_PACKAGE",
+                            "value": "https://raw.githubusercontent.com/macavall/L300-Durable/master/L300Durable.zip"
+                        },
                     ],
                     "cors": {
                         "allowedOrigins": [
