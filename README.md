@@ -21,7 +21,7 @@ Deploy the Scenario here: [![Deploy To Azure](https://raw.githubusercontent.com/
 
 ## Examples of the PartitionId(s) shown in the History Table using the same ExecutionId
 
-###First PartitionId
+### First PartitionId
 
 ![image](https://github.com/macavall/L300-Durable/assets/43223084/1c9a471a-5424-4bd6-b53d-2e5c577791ae)
 
