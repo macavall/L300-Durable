@@ -37,6 +37,8 @@ Deploy the Scenario here: [![Deploy To Azure](https://raw.githubusercontent.com/
 
 ---
 
+# Issues opening the Azure Portal Storage Browser 
+
 If there are issues with accessing the Storage Account Browser due to permissions, ensure that we have the IAM Access set for the following **Role Permissions** to your user email
 
 ![image](https://github.com/macavall/L300-Durable/assets/43223084/2401727c-e01f-4dde-98a5-924ecec17933)
