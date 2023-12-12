@@ -19,7 +19,7 @@ Deploy the Scenario here: [![Deploy To Azure](https://raw.githubusercontent.com/
 
 ---
 
-Examples of the Partition
+## Examples of the PartitionId(s) shown in the History Table using the same ExecutionId
 
 First PartitionId
 
