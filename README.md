@@ -17,7 +17,7 @@ Deploy the Azure Resource
 
 Deploy the Scenario here: [![Deploy To Azure](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/deploytoazure.svg?sanitize=true)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fmacavall%2FL300-Durable%2Fmaster%2Fazuredeploy.json)
 
-
+---
    
 First PartitionId <br/>
 ![image](https://github.com/macavall/L300-Durable/assets/43223084/1c9a471a-5424-4bd6-b53d-2e5c577791ae)
