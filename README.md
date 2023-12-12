@@ -33,6 +33,10 @@ If there are issues with accessing the Storage Account Browser due to permission
 
 ![image](https://github.com/macavall/L300-Durable/assets/43223084/3e0d4c6c-884c-4557-9144-390b112c83c3)
 
+## Storage Configurations
+- Ensure the Storage Configurations blade has the following configurations
+
+![image](https://github.com/macavall/L300-Durable/assets/43223084/50fe915a-aef2-4dec-bcca-43fd4cb747ce)
 
 
 
