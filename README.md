@@ -25,11 +25,11 @@ Deploy the Scenario here: [![Deploy To Azure](https://raw.githubusercontent.com/
 
 ![image](https://github.com/macavall/L300-Durable/assets/43223084/1c9a471a-5424-4bd6-b53d-2e5c577791ae)
 
-Second PartitionId
+### Second PartitionId
 
 ![image](https://github.com/macavall/L300-Durable/assets/43223084/86e6e0ae-50cc-47fc-9c6b-13edc728b02d)
 
-Same ExecutionId
+### Same ExecutionId
 
 ![image](https://github.com/macavall/L300-Durable/assets/43223084/ea0f3532-64b0-4ae2-8238-57895b35655a)
 
