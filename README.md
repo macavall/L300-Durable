@@ -9,6 +9,8 @@ Deploy the Azure Resource
 - Notice all of the Execution IDs in the Storage Browser (_Azure Portal_) are the same meaning this is the same **ExecutionId**
   - The **PartitionId** changes
     - Please explain why the **ExecutionId** is the same and why the **PartitionId** changes?
+   
+- What is the resolution to this problem and how would we apply the fix to this problem?
 
 
    
