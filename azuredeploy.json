@@ -117,7 +117,7 @@
                 "virtualNetworkSubnetId": null,
                 "publicNetworkAccess": "Enabled",
                 "httpsOnly": true,
-                "serverFarmId": "[format('/subscriptions/{0}/resourcegroups/{1}/providers/Microsoft.Web/serverfarms/{2}', subscription().subscriptionId, resourceGroup().id, parameters('hostingPlanName'))]"
+                "serverFarmId": "[format('/subscriptions/{0}/resourcegroups/{1}/providers/Microsoft.Web/serverfarms/{2}', subscription().subscriptionId, resourceGroup().name, parameters('hostingPlanName'))]"
             }
         },
         {
