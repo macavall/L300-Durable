@@ -29,6 +29,11 @@ Second PartitionId <br/>
 
 ![image](https://github.com/macavall/L300-Durable/assets/43223084/86e6e0ae-50cc-47fc-9c6b-13edc728b02d)
 
+Same ExecutionId
+
+![image](https://github.com/macavall/L300-Durable/assets/43223084/31206f94-0a10-4509-a5f1-73eafe5958f6)
+
+
 ---
 
 If there are issues with accessing the Storage Account Browser due to permissions, ensure that we have the IAM Access set for the following **Role Permissions** to your user email
