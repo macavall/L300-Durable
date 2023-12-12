@@ -7,7 +7,17 @@ Deploy the Azure Resource
   - Open the Storage Account
 
 - Notice all of the Execution IDs in the Storage Browser (_Azure Portal_) are the same meaning this is the same **ExecutionId**
-  - The **PartitionId** changes and 
+  - The **PartitionId** changes
+    - Please explain why the **ExecutionId** is the same and why the **PartitionId** changes?
+
+
+   
+First PartitionId
+![image](https://github.com/macavall/L300-Durable/assets/43223084/1c9a471a-5424-4bd6-b53d-2e5c577791ae)
+
+Second PartitionId
+![image](https://github.com/macavall/L300-Durable/assets/43223084/86e6e0ae-50cc-47fc-9c6b-13edc728b02d)
+
 
 
 [![Deploy To Azure](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/deploytoazure.svg?sanitize=true)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fmacavall%2FL300-Durable%2Fmaster%2Fazuredeploy.json)
