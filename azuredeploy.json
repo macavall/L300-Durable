@@ -144,20 +144,6 @@
             }
         },
         {
-            "type": "microsoft.insights/components",
-            "apiVersion": "2020-02-02-preview",
-            "name": "durabletest563conai",
-            "location": "eastus",
-            "dependsOn": [],
-            "properties": {
-                "ApplicationId": "[parameters('name')]",
-                "Request_Source": "IbizaWebAppExtensionCreate",
-                "Flow_Type": "Redfield",
-                "Application_Type": "web",
-                "WorkspaceResourceId": "/subscriptions/153bf828-3e1e-48f9-8e6d-7f69c8e188aa/resourcegroups/defaultresourcegroup-eus/providers/microsoft.operationalinsights/workspaces/defaultworkspace-153bf828-3e1e-48f9-8e6d-7f69c8e188aa-eus"
-            }
-        },
-        {
             "type": "Microsoft.Storage/storageAccounts",
             "apiVersion": "2022-05-01",
             "name": "[parameters('storageAccountName')]",
@@ -170,31 +156,6 @@
                 "minimumTlsVersion": "TLS1_2",
                 "defaultToOAuthAuthentication": true
             }
-        },
-        {
-            "type": "microsoft.insights/diagnosticSettings",
-            "apiVersion": "2021-05-01-preview",
-            "name": "[concat(parameters('storageAccountName'), '-sa-blob-logs')]",
-            "dependsOn": [
-                "[resourceId('Microsoft.Storage/storageAccounts', parameters('storageAccountName'))]"
-            ],
-            "properties": {
-                "workspaceId": null,
-                "storageAccountId": "/subscriptions/153bf828-3e1e-48f9-8e6d-7f69c8e188aa/resourceGroups/00durabletest563rg/providers/Microsoft.Storage/storageAccounts/durabletest563constor",
-                "logs": [
-                    {
-                        "category": "StorageWrite",
-                        "enabled": true
-                    }
-                ],
-                "metrics": [
-                    {
-                        "category": "Transaction",
-                        "enabled": true
-                    }
-                ]
-            },
-            "scope": "[concat('Microsoft.Storage/storageAccounts/', parameters('storageAccountName'), '/blobServices/default')]"
         }
     ]
 }
