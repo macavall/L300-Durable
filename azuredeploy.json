@@ -154,6 +154,7 @@
             "sku": {
                 "name": "Standard_LRS"
             },
+            "kind": "StorageV2",
             "properties": {
                 "supportsHttpsTrafficOnly": true,
                 "minimumTlsVersion": "TLS1_2",
